@@ -1,0 +1,10 @@
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Repo\bin\Debug\Cafe.Repo.exe.config
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Repo\bin\Debug\Cafe.Repo.exe
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Repo\bin\Debug\Cafe.Repo.pdb
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Repo\bin\Debug\System.dll
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Repo\obj\Debug\Cafe.Console.csproj.CoreCompileInputs.cache
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Repo\obj\Debug\Cafe.Console.csproj.CopyComplete
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Repo\obj\Debug\Cafe.Repo.exe
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Repo\obj\Debug\Cafe.Repo.pdb
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Repo\bin\Debug\System.xml
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Repo\obj\Debug\Cafe.Console.csprojAssemblyReference.cache

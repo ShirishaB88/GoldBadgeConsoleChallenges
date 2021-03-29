@@ -1,0 +1,2 @@
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\GoldBadgeConsoleChallenges\obj\Debug\Cafe.Console.csprojAssemblyReference.cache
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\GoldBadgeConsoleChallenges\obj\Debug\Cafe.Console.csproj.CoreCompileInputs.cache

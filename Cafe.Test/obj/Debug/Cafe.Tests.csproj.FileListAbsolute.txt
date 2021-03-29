@@ -1,0 +1,15 @@
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Test\bin\Debug\Cafe.Test.dll
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Test\bin\Debug\Cafe.Test.pdb
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Test\bin\Debug\System.dll
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Test\obj\Debug\Cafe.Tests.csprojAssemblyReference.cache
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Test\obj\Debug\Cafe.Tests.csproj.CoreCompileInputs.cache
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Test\obj\Debug\Cafe.Tests.csproj.CopyComplete
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Test\obj\Debug\Cafe.Test.dll
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Cafe.Test\obj\Debug\Cafe.Test.pdb
