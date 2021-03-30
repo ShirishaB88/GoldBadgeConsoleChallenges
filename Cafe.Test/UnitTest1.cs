@@ -32,9 +32,9 @@ namespace Cafe.Tests
 
             List<CafeMenu> listOfMenuItems = menuRepository.GetCafeMenu();
 
-            bool hasMeniItems = listOfMenuItems.Contains(menuItems);
+            bool hasMenuiItems = listOfMenuItems.Contains(menuItems);
 
-            Assert.IsTrue(hasMeniItems);
+            Assert.IsTrue(hasMenuiItems);
 
         }
 

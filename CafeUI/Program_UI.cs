@@ -209,8 +209,8 @@ namespace CafeUI
             Console.WriteLine($" Meal Number : {menuItem.MealNumber}\n" +
                     $"Meal Name: {menuItem.MealName}\n" +
                     $"Description: {menuItem.Description}" +
-                   
                     $"Price: {menuItem.Price}");
+                   
             foreach (var item in menuItem.Ingredients)
             {
                 Console.WriteLine(item);

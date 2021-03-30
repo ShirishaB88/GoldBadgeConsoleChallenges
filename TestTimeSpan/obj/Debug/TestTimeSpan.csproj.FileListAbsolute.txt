@@ -1,0 +1,7 @@
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\TestTimeSpan\bin\Debug\TestTimeSpan.exe.config
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\TestTimeSpan\bin\Debug\TestTimeSpan.exe
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\TestTimeSpan\bin\Debug\TestTimeSpan.pdb
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\TestTimeSpan\obj\Debug\TestTimeSpan.csproj.CoreCompileInputs.cache
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\TestTimeSpan\obj\Debug\TestTimeSpan.exe
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\TestTimeSpan\obj\Debug\TestTimeSpan.pdb
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\TestTimeSpan\obj\Debug\TestTimeSpan.csprojAssemblyReference.cache

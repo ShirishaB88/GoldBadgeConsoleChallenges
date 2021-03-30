@@ -1,0 +1,6 @@
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_Repository\bin\Debug\Claims_Repository.dll
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_Repository\bin\Debug\Claims_Repository.pdb
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_Repository\obj\Debug\Claims_Repository.csprojAssemblyReference.cache
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_Repository\obj\Debug\Claims_Repository.csproj.CoreCompileInputs.cache
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_Repository\obj\Debug\Claims_Repository.dll
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_Repository\obj\Debug\Claims_Repository.pdb

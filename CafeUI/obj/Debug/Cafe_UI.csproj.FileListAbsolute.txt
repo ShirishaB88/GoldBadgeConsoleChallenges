@@ -1,0 +1,10 @@
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\CafeUI\bin\Debug\CafeUI.exe.config
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\CafeUI\bin\Debug\CafeUI.exe
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\CafeUI\bin\Debug\CafeUI.pdb
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\CafeUI\bin\Debug\Cafe.Repository.dll
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\CafeUI\bin\Debug\Cafe.Repository.pdb
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\CafeUI\obj\Debug\Cafe_UI.csprojAssemblyReference.cache
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\CafeUI\obj\Debug\Cafe_UI.csproj.CoreCompileInputs.cache
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\CafeUI\obj\Debug\Cafe_UI.csproj.CopyComplete
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\CafeUI\obj\Debug\CafeUI.exe
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\CafeUI\obj\Debug\CafeUI.pdb

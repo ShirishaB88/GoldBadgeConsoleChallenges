@@ -1,0 +1,10 @@
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_UI\bin\Debug\Claims_UI.exe.config
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_UI\bin\Debug\Claims_UI.exe
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_UI\bin\Debug\Claims_UI.pdb
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_UI\bin\Debug\Claims_Repository.dll
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_UI\bin\Debug\Claims_Repository.pdb
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_UI\obj\Debug\Claims_UI.csprojAssemblyReference.cache
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_UI\obj\Debug\Claims_UI.csproj.CoreCompileInputs.cache
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_UI\obj\Debug\Claims_UI.csproj.CopyComplete
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_UI\obj\Debug\Claims_UI.exe
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Claims_UI\obj\Debug\Claims_UI.pdb
