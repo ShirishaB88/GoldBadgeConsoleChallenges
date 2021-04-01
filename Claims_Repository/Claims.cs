@@ -23,18 +23,16 @@ namespace Claims_Repository
                 int daysToClaim = Convert.ToInt32(timeSpan.TotalDays);
 
                if(daysToClaim <= 30)
-                {
+               {
                     return true;
-                }
+               }
                 else
                 {
                     return false;
                 }
 
-
-
             }
-
+           
         }
         
         public Claims()

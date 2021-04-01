@@ -9,7 +9,7 @@ namespace Claims_Tests
     public class UnitTest1
     {
         [TestMethod]
-        public void AddClaimsToTheQueue()
+        public void AddClaimsToTheQueue_ShouldGetCorrectBoolean()
         {
             Claims claimItems = new Claims();
             ClaimsRepoistory claimsRepo = new ClaimsRepoistory();
@@ -21,7 +21,7 @@ namespace Claims_Tests
         }
 
         [TestMethod]
-        public void GetAllClaims()
+        public void GetAllClaims_ShouldGetCorrectQueue()
         {
            
             Claims claimItems = new Claims();
@@ -54,8 +54,10 @@ namespace Claims_Tests
         [TestMethod]
         public void ViewNextClaimTest()
         {
-            Queue<Claims> claimsQueue = _claimRepo.GetAllClaims();
-           Claims nextClaimItem = claimsQueue.Peek();
+            //Queue<Claims> claimsQueue = _claimRepo.GetAllClaims();
+            //Claims nextClaimItem = claimsQueue.Peek();
+
+            Claims nextClaimItem = _claimRepo.ViewNextClaim();
 
             Assert.AreEqual(_claimItems, nextClaimItem);
         }
@@ -64,10 +66,14 @@ namespace Claims_Tests
         [TestMethod]
         public void ProcessClaimTest()
         {
-            Queue<Claims> claimsqueue = _claimRepo.GetAllClaims();
-            Claims claimItem = claimsqueue.Dequeue();
+            //Queue<Claims> claimsqueue = _claimRepo.GetAllClaims();
+            //Claims claimItem = claimsqueue.Dequeue();
 
-            Assert.AreEqual(_claimItems, claimItem);
+            //Assert.AreEqual(_claimItems, claimItem);
+
+            bool claimProcessed = _claimRepo.ProcessClaim();
+            Assert.IsTrue(claimProcessed);
+
 
         }
 

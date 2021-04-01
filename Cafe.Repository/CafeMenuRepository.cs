@@ -15,24 +15,13 @@ namespace Cafe.Repository
 
         public bool AddItemsToCafeMenuList(CafeMenu items)
         {
-            int startingItemCount = _listOfCafeMenuItems.Count;
+            //int startingItemCount = _listOfCafeMenuItems.Count;
 
             _listOfCafeMenuItems.Add(items); //.Add method used to add new items to the List
 
-            bool wasAdded = (_listOfCafeMenuItems.Count > startingItemCount) ? true : false; //ternary condition statement
+            //bool wasAdded = (_listOfCafeMenuItems.Count > startingItemCount) ? true : false; //ternary condition statement
 
-            return wasAdded;
-
-
-
-            //if (startingItemCount > _listOfCafeMenuItems.Count)
-            //{
-            //    return true;
-            //}
-            //else
-            //{
-            //    return false;
-            //}
+            return true; 
 
 
         }
@@ -44,15 +33,35 @@ namespace Cafe.Repository
             return _listOfCafeMenuItems;
         }
 
+        //update
+        public bool UpdateCafeMenuItems(int mealNumber, CafeMenu newCafeMenu)
+        {
+            CafeMenu oldCafeMenu = GetMenuItemsByMealNumber(mealNumber);
 
-        //Update..... We do not need this for Cafe Challenge
+            if(oldCafeMenu != null)
+            {
+                oldCafeMenu.MealNumber = newCafeMenu.MealNumber;
+                oldCafeMenu.MealName = newCafeMenu.MealName;
+                oldCafeMenu.Description = newCafeMenu.Description;
+                oldCafeMenu.Ingredients = newCafeMenu.Ingredients;
+                oldCafeMenu.Price = newCafeMenu.Price;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
 
+
+        }
+
+       
 
         //Delete
         //Delete all the exisiting Items From Menu
         public bool DeleteExistingItems(CafeMenu existingItems)
         {
-          bool deleteResults =  _listOfCafeMenuItems.Remove(existingItems); //Remove mthod used for revoing all the existing items from Menu
+          bool deleteResults =  _listOfCafeMenuItems.Remove(existingItems); //Remove method used for revoing all the existing items from Menu
             return deleteResults;
         }
 
@@ -66,12 +75,12 @@ namespace Cafe.Repository
                 return false;
             }
 
-            int startcount = _listOfCafeMenuItems.Count();
             _listOfCafeMenuItems.Remove(item);
+            return true; 
 
 
-            bool wasRemoved = (startcount > _listOfCafeMenuItems.Count) ? true : false;
-            return wasRemoved;
+            //int startcount = _listOfCafeMenuItems.Count();
+            //bool wasRemoved = (startcount > _listOfCafeMenuItems.Count) ? true : false;
 
 
         }
@@ -124,21 +133,7 @@ namespace Cafe.Repository
             return null;
         }
 
-        //getting the  items by List of ingredients
-
-        public CafeMenu GetItemByListOFIngredients(string ingredient)
-        {
-            foreach (CafeMenu item in _listOfCafeMenuItems)
-            {
-                if (item.Ingredients.Contains(ingredient) )
-                {
-                    return item;
-                }
-            }
-            return null;
-        }
-
-        //Getting the Items By Price
+        
 
         public CafeMenu GetItemByPrice(double price)
         {

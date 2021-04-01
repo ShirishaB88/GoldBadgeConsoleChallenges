@@ -9,7 +9,7 @@ namespace Cafe.Tests
     public class UnitTest1
     {
         [TestMethod]
-        public void AddItemsToCafeMenuList_ShouldGetCoorectBoolean()
+        public void AddItemsToCafeMenuList_ShouldGetCorectBoolean()
         {   
             //Arrange
             CafeMenu menuItems = new CafeMenu();
@@ -73,6 +73,40 @@ namespace Cafe.Tests
             Assert.AreEqual(_menuItems, searchResults);
 
         }
+
+        [TestMethod]
+        public void GetItemsByDescription()
+        {
+            CafeMenu searchresults = _menuRepo.GetItemsByDescription("Falt Bread with Pizzza suace, chesse, veggies on it.");
+            Assert.AreEqual(_menuItems, searchresults);
+
+        }
+
+        [TestMethod]
+        public void GetItemByPrice()
+        {
+            CafeMenu searchResults = _menuRepo.GetItemByPrice(10.5);
+            Assert.AreEqual(_menuItems, searchResults);
+        }
+
+        [TestMethod]
+        public void UpdateCafeMenuItems()
+        {
+            CafeMenu newcafeMenu = new CafeMenu(1,"CauliflowerPizza", "Glutenfree flat Bread with Pizzza suace, chesse, veggies on it.", 
+                new List<string>() { "Cauliflour Crust", "Chesse", "Pizza Sauce", "Veggies" }, 12);
+
+            bool updatedMenu = _menuRepo.UpdateCafeMenuItems(_menuItems.MealNumber, newcafeMenu);
+            Console.WriteLine($"{_menuItems.MealNumber } \n" +
+                $"{_menuItems.MealName} \n" +
+                $"{_menuItems.Price}");
+            foreach (var ingredient in _menuItems.Ingredients)
+            {
+                Console.WriteLine(ingredient);
+            }
+            Assert.IsTrue(updatedMenu);
+
+        }
+       
 
         [TestMethod]
         public void ZDeleteExistingItems_ShouldGetTrue()

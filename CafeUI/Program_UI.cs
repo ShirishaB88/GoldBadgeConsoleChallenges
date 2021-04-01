@@ -104,6 +104,7 @@ namespace CafeUI
 
                 if (userInputHasIngredient == "y")
                 {
+                    Console.WriteLine("Enter the Ingredient to add: ");
                     string ingredient = Console.ReadLine();
                     
                     newMenuItem.Ingredients.Add(ingredient);
@@ -114,17 +115,13 @@ namespace CafeUI
                     hasAllIngredients = true;
                 }
 
-            }
-
-            
-           
+            }           
            
             //Price
             Console.WriteLine("Enter a Price for The New Menu Item");
             newMenuItem.Price = double.Parse(Console.ReadLine());
 
             _menuRepo.AddItemsToCafeMenuList(newMenuItem);
-
 
         }
 
@@ -204,27 +201,28 @@ namespace CafeUI
 
         private void DisplayMenuItems(CafeMenu menuItem)
         {
-            //Console.Clear();
-
-            Console.WriteLine($" Meal Number : {menuItem.MealNumber}\n" +
+            
+            Console.WriteLine($"Meal Number : {menuItem.MealNumber}\n" +
                     $"Meal Name: {menuItem.MealName}\n" +
-                    $"Description: {menuItem.Description}" +
-                    $"Price: {menuItem.Price}");
-                   
-            foreach (var item in menuItem.Ingredients)
-            {
-                Console.WriteLine(item);
-            }
+                    $"Description: {menuItem.Description}\n" +
+                    $"Price: {menuItem.Price}\n" +
+                    $"Ingredients: ");
+                   foreach (var item in menuItem.Ingredients)
+                   {
+                     Console.WriteLine(item);
+                   }
+
+
         }
 
         //seed Method
         private void SeedMenuList()
         {
             
-            CafeMenu pizza = new CafeMenu(1, "Pizza", "Falt Bread with Pizzza suace, chesse, veggies on it.",new List<string>() {"Wheat flour", "Chesse", "Pizza Sauce", "Veggies" }, 10.59);
-            CafeMenu sandwitch = new CafeMenu(2, "Sandwitch", "Loaded with yummy sauces and selected patties", new List<string>() {"Wheat Bread","Patties of choice","Cheese","Sauce"}, 7.9);
-            CafeMenu veggieWrap = new CafeMenu(3, "Veggie wrap", "Tortilla wrapped with beand and selected veggies with beans/rice", new List<string>() {"Toratilla","Rice/Beans","Veggies","Cheese"}, 8.99);
-            CafeMenu pasta = new CafeMenu(4, "Pasta", "Pasta with favorite suaces and veggeis", new List<string>() {"Panne pasta","Suace","Veggies"}, 5.99);
+            CafeMenu pizza = new CafeMenu(1, "Pizza", "Falt Bread with Pizzza suace, chesse, veggies on it. ",new List<string>() {"Wheat flour", "Chesse", "Pizza Sauce", "Veggies" }, 10.59);
+            CafeMenu sandwitch = new CafeMenu(2, "Sandwitch", "Loaded with yummy sauces and selected patties. ", new List<string>() {"Wheat Bread","Patties of choice","Cheese","Sauce"}, 7.9);
+            CafeMenu veggieWrap = new CafeMenu(3, "Veggie wrap", "Tortilla wrapped with beand and selected veggies with beans/rice. ", new List<string>() {"Toratilla","Rice/Beans","Veggies","Cheese"}, 8.99);
+            CafeMenu pasta = new CafeMenu(4, "Pasta", "Pasta with favorite suaces and veggeis", new List<string>() {"Panne pasta","Suace","Veggies. "}, 5.99);
 
 
             _menuRepo.AddItemsToCafeMenuList(pizza);

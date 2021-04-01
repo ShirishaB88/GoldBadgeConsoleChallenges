@@ -31,7 +31,7 @@ namespace Cafe.Repository
             MealNumber = mealNumber;
             MealName = mealName;
             Description = description;
-            Ingredients = ingredients.ToList();
+            Ingredients = ingredients;
             Price = price;
 
 

@@ -1,0 +1,10 @@
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Badges_Console\bin\Debug\Badges_Console.exe.config
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Badges_Console\bin\Debug\Badges_Console.exe
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Badges_Console\bin\Debug\Badges_Console.pdb
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Badges_Console\obj\Debug\Badges_UI.csprojAssemblyReference.cache
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Badges_Console\obj\Debug\Badges_UI.csproj.CoreCompileInputs.cache
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Badges_Console\obj\Debug\Badges_Console.exe
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Badges_Console\obj\Debug\Badges_Console.pdb
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Badges_Console\bin\Debug\Badges_Repository.dll
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Badges_Console\bin\Debug\Badges_Repository.pdb
+C:\81-3-8 SD\C#Fundamentals\GoldBadgeConsoleChallenges\Badges_Console\obj\Debug\Badges_UI.csproj.CopyComplete

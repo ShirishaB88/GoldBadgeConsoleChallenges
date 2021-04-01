@@ -15,7 +15,7 @@ namespace Claims_Repository
         //Create Methods..... Add new claims to the Queue
         public bool AddClaimsToTheQueue(Claims claimItem)
         {
-            int startingCount = _claimsQueue.Count();
+            //int startingCount = _claimsQueue.Count();
 
             _claimsQueue.Enqueue(claimItem);
 
@@ -31,7 +31,7 @@ namespace Claims_Repository
         }
 
        public Claims ViewNextClaim()
-        {
+       {
             Claims claim;
             if (_claimsQueue.Count > 0)
             {
@@ -39,7 +39,7 @@ namespace Claims_Repository
                 return claim;
             }
             return null;
-        }
+       }
 
         public bool ProcessClaim()
         {
