@@ -114,7 +114,21 @@ namespace Claims_UI
             Console.WriteLine("Please Enter Date Of Date Of Claim ");
             claimItem.DateOfClaim = DateTime.Parse(Console.ReadLine());
 
-           
+
+            TimeSpan timeSpan = claimItem.DateOfClaim - claimItem.DateOfIncident;
+            int daysToClaim = Convert.ToInt32(timeSpan.TotalDays);
+
+            //IsValid
+            Console.WriteLine("This Claim is: ");
+            if (daysToClaim > 30)
+            {
+               
+                Console.WriteLine("Is Not Valid"); 
+            }
+            else
+            {
+                Console.WriteLine("Is Valid");
+            }
 
             Console.ReadKey();
 
@@ -176,15 +190,18 @@ namespace Claims_UI
                 $"Description:{claimItem.Description}\n" +
                 $"Claim Amount: {claimItem.ClaimAmount}\n" +
                 $"Date Of Incident: {claimItem.DateOfIncident}\n" +
-                $"Date Of Claim: {claimItem.DateOfClaim}");   
+                $"Date Of Claim: {claimItem.DateOfClaim} \n" +
+                $"IsValid: {claimItem.IsValid}"); 
+
+            
         }
 
         private void seedItems()
         {
-            Claims claimItem1 = new Claims(1, ClaimType.Car, "Car accident on 464.", 400.00, new DateTime(2018, 4, 25), new DateTime(2018, 4, 27));
-            Claims claimItem2 = new Claims(2, ClaimType.Car, "Car accident on 465.",400.00,new DateTime(2018,4,25),new DateTime(2018,4,27));
-            Claims claimItem3 = new Claims(3, ClaimType.Home, "House fire in kitchen.",4000.00, new DateTime(2018,4,11),new DateTime(2018,4,12));
-            Claims claimItem4 = new Claims(4, ClaimType.Theft, "Stolen pancakes.", 4.00,new DateTime(2018,4,27),new DateTime(2018,6,01));
+            Claims claimItem1 = new Claims(1, ClaimType.Car, "Car accident on 464.", 400.00, new DateTime(2018, 4, 25), new DateTime(2018, 4, 27), true);
+            Claims claimItem2 = new Claims(2, ClaimType.Car, "Car accident on 465.",400.00,new DateTime(2018,4,25),new DateTime(2018,4,27), true);
+            Claims claimItem3 = new Claims(3, ClaimType.Home, "House fire in kitchen.",4000.00, new DateTime(2018,4,11),new DateTime(2018,4,12), true);
+            Claims claimItem4 = new Claims(4, ClaimType.Theft, "Stolen pancakes.", 4.00,new DateTime(2018,4,27),new DateTime(2018,6,01), false);
 
             _claimsRepo.AddClaimsToTheQueue(claimItem1);
             _claimsRepo.AddClaimsToTheQueue(claimItem2);

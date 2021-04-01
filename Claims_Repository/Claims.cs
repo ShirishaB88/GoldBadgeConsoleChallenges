@@ -15,32 +15,18 @@ namespace Claims_Repository
         public double ClaimAmount { get; set; }
         public DateTime DateOfIncident { get; set; }
         public DateTime DateOfClaim { get; set; }
-        public bool IsValid { get
-            {
-                DateTime dateOfIncident = new DateTime();
-                DateTime dateOfClaim = new DateTime();
-                TimeSpan timeSpan = dateOfIncident - dateOfClaim;
-                int daysToClaim = Convert.ToInt32(timeSpan.TotalDays);
-
-               if(daysToClaim <= 30)
-               {
-                    return true;
-               }
-                else
-                {
-                    return false;
-                }
-
-            }
+        public bool IsValid { get; set; }
+          
+         
            
-        }
+        
         
         public Claims()
         {
 
         }
 
-        public Claims(int claimID, ClaimType typeOfClaim, string description, double claimAmount, DateTime dateOfIncident, DateTime dateOfClaim)
+        public Claims(int claimID, ClaimType typeOfClaim, string description, double claimAmount, DateTime dateOfIncident, DateTime dateOfClaim, bool isValid)
         {
             ClaimID = claimID;
             TypeOfClaim = typeOfClaim;
@@ -48,6 +34,7 @@ namespace Claims_Repository
             ClaimAmount = claimAmount;
             DateOfIncident = dateOfIncident;
             DateOfClaim = dateOfClaim;
+            IsValid = isValid;
            
         }
     }
